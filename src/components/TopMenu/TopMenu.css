@@ -1,0 +1,21 @@
+.TopMenu {
+  width: 40%;
+  position: fixed;
+  z-index: 10;
+  padding-top: 25px;
+  padding-left: 70px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, #2f323ef1), to(#2f323e00));
+  background-image: linear-gradient(to right, #2f323ef1 80%, #2f323e00);
+}
+
+.TopMenu a {
+  font-size: 1vw;
+  font-weight: 100;
+  text-decoration: none;
+  color: #FFDB6A;
+  padding: 10px;
+  margin-right: 50px;
+}
+/*# sourceMappingURL=TopMenu.css.map */

@@ -1,0 +1,123 @@
+.TopArea{
+    background:#2A2D37;
+    position:relative;
+    height:100vh;
+    width:100%;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.281);
+    overflow:hidden;
+    box-sizing:border-box;
+    
+    .section-one{
+    width:50%;
+    float:left;
+    height:100%;
+    background:rgb(43, 47, 58);
+    position:relative;
+    transform: skew(-17deg);
+    z-index: 2;
+    transition: width 0.5s;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.281);
+    &:before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: #2F323E;
+        top: 0;
+        left: 0;
+        transform: skew(17deg);
+        z-index: -1;
+      }
+ }
+
+ .layer{
+    width:95%;
+    float:left;
+    height:100%;
+    background:#2F323E;
+    position:relative;
+    z-index: 2;
+    transition: width 0.5s;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, 0.281);
+    &:before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: #2F323E;
+        top: 0;
+        left: 0;
+        transform: skew(17deg);
+        z-index: -1;
+      } 
+}
+
+ .section-two {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #2A2D37;
+    transform: skew(-17deg);
+    position: relative;
+    z-index: 1;
+    transition: width 0.5s;
+    
+    &:after {
+      content: "";
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      background: #2A2D37;
+      top: 0;
+      right: 0;
+      transform: skew(17deg);
+      z-index: -1;
+    }
+  }
+  .content-left {
+    transform: skew(17deg);
+    width:50%;
+    padding: 20px;
+    margin-top:0;
+    margin-left:20%;
+    color: #fff;
+    text-align: left;
+    position:absolute;
+    bottom:20%;
+  }
+  .content-right {
+    transform: skew(17deg);
+    color: #fff;
+    text-align: center;
+    position:absolute;
+  }
+
+  .BigFlower{
+    width:50vw;
+    min-width:100vh;
+    margin:auto;
+    text-align:center;
+  }
+
+  h1{
+      font-size:4.7vw;
+      margin-bottom:0;
+      margin-top:0;
+      color:#FFDB6A;
+      font-weight:100;
+  }
+
+  h3{
+      margin-top:0;
+      color:#AD9C65;
+      font-weight:100;
+      font-size:1.5vw;
+  }
+
+  p{
+      text-align:justify;
+      color:#E4C76B;
+      font-size:1vw;
+      font-weight:100;
+  }
+}

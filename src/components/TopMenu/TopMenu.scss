@@ -1,0 +1,19 @@
+.TopMenu{
+    width: 40%;
+    position:fixed;
+    z-index:10;
+    padding-top:25px;
+    padding-left:70px;
+    padding-right:25px;
+    padding-bottom: 25px;
+    background-image: linear-gradient(to right, #2f323ef1 80% , #2f323e00);
+
+    a{
+        font-size:1vw;
+        font-weight:100;
+        text-decoration:none;
+        color: #FFDB6A;
+        padding:10px;
+        margin-right:50px;
+    }
+}
