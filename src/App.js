@@ -17,7 +17,6 @@ function App() {
     <TopArea />
     <Icons />
     <Projects />
-    <Slider />
     <Download />
     <ContactMe />
     </>
