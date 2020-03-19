@@ -1,0 +1,16 @@
+.ContactContainer{
+    background:#171920;
+    text-align:center;
+    z-index:-3;
+    position:relative;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.285);
+    h2{
+        z-index:-3;
+        position:relative;
+        margin:0;
+        padding-top:70px;
+        padding-bottom:70px;
+        font-weight:100;
+        font-size:22pt;
+    }
+}

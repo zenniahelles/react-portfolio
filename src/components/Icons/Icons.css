@@ -1,6 +1,8 @@
 .IconContainer {
   background: #24272F;
   text-align: center;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.285);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.285);
 }
 
 .IconContainer h2 {

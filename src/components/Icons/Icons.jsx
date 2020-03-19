@@ -16,7 +16,7 @@ import {ReactComponent as BootstrapIcon} from '../../images/bootstrap.svg';
 const Icons = props => {
     return (
         <>
-        <div className="IconContainer">
+        <div id="Skills" className="IconContainer">
             <h2>EXPERIENCE AND SKILLS</h2>
                 <div className="IconGrid1">
                     <div>
@@ -43,7 +43,7 @@ const Icons = props => {
                     <ArtIcon className="svgicon" /><h4>ART AND ILLUSTRATION</h4>
                     </div>
                     <div>
-                    <AdobeIcon className="svgicon" /><h4>ADOBE PHOTOSHOP & <br />ADOBE PHOTOSHOP</h4>
+                    <AdobeIcon className="svgicon" /><h4>ADOBE PHOTOSHOP & <br />ADOBE ILLUSTRATOR</h4>
                     </div>
                     <div>
                     <PwaIcon className="svgicon" /><h4>PROGRESSIVE WEB APPS</h4>
